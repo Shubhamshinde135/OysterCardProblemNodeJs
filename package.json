@@ -1,0 +1,25 @@
+{
+  "name": "oystermodel",
+  "version": "1.0.0",
+  "description": "Node.js equivalent of Java Maven project",
+  "main": "AppTest.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "dependencies": {
+    "chai": "^5.1.1",
+    "lodash": "^4.17.21",
+    "oystermodel": "file:"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  }
+}
